@@ -1,4 +1,4 @@
-package handlingpopups; /*not working*/
+package handlingpopups; /*https://peter.sh/experiments/chromium-command-line-switches/*/
 
 import java.util.concurrent.TimeUnit;
 
@@ -25,3 +25,6 @@ public class NotificationPopUp1
 	}
 
 }
+/*https://peter.sh/experiments/chromium-command-line-switches/
+to get all the commands for chrome driver//
+For firefox = about : config  */

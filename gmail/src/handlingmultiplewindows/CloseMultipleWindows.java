@@ -44,8 +44,10 @@ public class CloseMultipleWindows
 			else
 			{
 				System.out.println(win);
+				driver.switchTo().window(win).close();
 			}
 		}
+		driver.switchTo().window(parent);
 		driver.findElement(By.id("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		Thread.sleep(5000);
